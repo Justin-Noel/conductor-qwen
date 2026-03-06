@@ -23,7 +23,9 @@ CRITICAL: You must validate the success of every tool call. If any tool call fai
 ## 1.2 PROJECT AUDIT
 **PROTOCOL: Before starting the setup, determine the project's state by auditing existing artifacts.**
 
-1.  **Audit Artifacts:** Check the file system for the existence of the following files/directories in the `conductor/` directory:
+1.  **Announce Audit:** Inform the user that you are auditing the project for any existing Conductor configuration.
+
+2.  **Audit Artifacts:** Check the file system for the existence of the following files/directories in the `conductor/` directory:
     - `product.md`
     - `product-guidelines.md`
     - `tech-stack.md`
@@ -32,7 +34,7 @@ CRITICAL: You must validate the success of every tool call. If any tool call fai
     - `index.md`
     - `tracks/*/` (specifically `plan.md` and `index.md`)
 
-2.  **Determine Target Section:** Map the project's state to a target section using the priority table below (highest match wins). **DO NOT JUMP YET.** Keep this target in mind.
+3.  **Determine Target Section:** Map the project's state to a target section using the priority table below (highest match wins). **DO NOT JUMP YET.** Keep this target in mind.
 
 | Artifact Exists | Target Section | Announcement |
 | :--- | :--- | :--- |
@@ -45,7 +47,7 @@ CRITICAL: You must validate the success of every tool call. If any tool call fai
 | `product.md` | **Section 2.2** | "Resuming setup: Product Guide is complete. Next: create Product Guidelines." |
 | (None) | **Section 2.0** | (None) |
 
-3. **Proceed to Section 2.0:** You MUST proceed to Section 2.0 to establish the Greenfield/Brownfield context before jumping to your target.
+4. **Proceed to Section 2.0:** You MUST proceed to Section 2.0 to establish the Greenfield/Brownfield context before jumping to your target.
 
 ---
 
